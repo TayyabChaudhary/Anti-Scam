@@ -9234,3 +9234,12 @@ a.footer_title {
   position: relative;
   overflow: hidden;
 }
+
+.profit__para{
+  width: 735px;
+  text-align: center;
+}
+
+.analyze{
+  text-align: center;
+}
