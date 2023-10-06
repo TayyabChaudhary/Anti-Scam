@@ -8978,7 +8978,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-  min-height: 17.25rem;
+
 
 }
 .layout-card:hover{
@@ -9005,7 +9005,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-  min-height: 17.25rem;
+
 }
 .layout-card2:hover{
   background-color: var(--main-color);
@@ -9054,7 +9054,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-  min-height: 17.25rem;
+
 }
 .layout-card3:hover{
   background-color: var(--main-color);
@@ -9087,7 +9087,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-  min-height: 17.25rem;
+
 }
 .layout-card4:hover{
   background-color: var(--main-color);
@@ -9236,7 +9236,7 @@ a.footer_title {
 }
 
 .card__item__green__row .card__items_2 p{
-  font-size: 19px;
+  font-size: 22px;
   line-height: 30px;
 }
 
