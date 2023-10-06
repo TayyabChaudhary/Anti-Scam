@@ -3763,7 +3763,7 @@ img.logo {
 }
 
 a.navbar-brand img {
-  width: 65px;
+  width: 110px;
 }
 
 a.navbar2_link.nav-link {
@@ -8987,10 +8987,9 @@ a.footer_title {
 
 .layout-card2 h2 {
   color: #fff;
-  font-size: 1.88rem;
+  font-size: 23px;
   line-height: 1;
   letter-spacing: -.06rem;
-  margin-bottom: 10px;
 }
 
 .layout-card2 p {
@@ -9023,10 +9022,9 @@ a.footer_title {
 
 .layout-card h2 {
   color: #fff;
-  font-size: 1.88rem;
+  font-size: 23px;
   line-height: 1;
   letter-spacing: -.06rem;
-  margin-bottom: 10px;
 }
 
 .layout-card p {
@@ -9038,10 +9036,9 @@ a.footer_title {
 
 .layout-card3 h2 {
   color: #fff;
-  font-size: 1.88rem;
+  font-size: 23px;
   line-height: 1;
   letter-spacing: -.06rem;
-  margin-bottom: 10px;
 }
 
 .layout-card3 p {
@@ -9239,7 +9236,7 @@ a.footer_title {
 }
 
 .card__item__green__row .card__items_2 p{
-  font-size: 23px;
+  font-size: 19px;
   line-height: 30px;
 }
 
