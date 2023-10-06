@@ -3480,6 +3480,7 @@ figcaption {
   transition: all 0.3s ease;
   top: 0;
   right: 0;
+  height: 80px;
   left: 0;
   background-color: var(--main-color);
 }
@@ -3763,7 +3764,7 @@ img.logo {
 }
 
 a.navbar-brand img {
-  width: 110px;
+  width: 155px;
 }
 
 a.navbar2_link.nav-link {
@@ -8978,7 +8979,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-
+  min-height: 17.25rem;
 
 }
 .layout-card:hover{
@@ -8994,7 +8995,7 @@ a.footer_title {
 
 .layout-card2 p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 19px;
   line-height: 1.5;
 }
 
@@ -9005,7 +9006,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-
+  min-height: 17.25rem;
 }
 .layout-card2:hover{
   background-color: var(--main-color);
@@ -9029,7 +9030,7 @@ a.footer_title {
 
 .layout-card p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 19px;
   line-height: 1.5;
 }
 
@@ -9043,7 +9044,7 @@ a.footer_title {
 
 .layout-card3 p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 19px;
   line-height: 1.5;
 }
 
@@ -9054,7 +9055,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-
+  min-height: 17.25rem;
 }
 .layout-card3:hover{
   background-color: var(--main-color);
@@ -9087,7 +9088,7 @@ a.footer_title {
   flex-direction: column;
   gap: 3rem;
   justify-content: space-between;
-
+  min-height: 17.25rem;
 }
 .layout-card4:hover{
   background-color: var(--main-color);
