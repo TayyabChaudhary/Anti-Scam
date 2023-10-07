@@ -4467,6 +4467,7 @@ a.action-btn {
   transition: all 0.3s ease-in-out;
 }
 
+/* ***************************************************************************************************************** */
 a.action-btn span::after {
   background: linear-gradient(90deg, rgb(241 241 241 / 60%) 0px, rgb(255 255 255 / 0%) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
   content: "";
@@ -8980,8 +8981,50 @@ a.footer_title {
   gap: 3rem;
   justify-content: space-between;
   min-height: 17.25rem;
+  position: relative;
+  overflow: hidden;
 
 }
+
+.layout-card::after{
+  background: linear-gradient(90deg, rgb(241 241 241 / 60%) 0px, rgb(255 255 255 / 0%) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+  content: "";
+  height: 200%;
+  left: -210%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.7s ease 0s;
+  width: 200%;
+  animation: moves 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+
+@keyframes moves {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  48% {
+    opacity: 1.5;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 120%
+  }
+}
+
 .layout-card:hover{
   background-color: var(--main-color);
 }
@@ -9007,11 +9050,50 @@ a.footer_title {
   gap: 3rem;
   justify-content: space-between;
   min-height: 17.25rem;
+  position: relative;
+  overflow: hidden;
 }
 .layout-card2:hover{
   background-color: var(--main-color);
 }
+.layout-card2::after{
+  background: linear-gradient(90deg, rgb(241 241 241 / 60%) 0px, rgb(255 255 255 / 0%) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+  content: "";
+  height: 200%;
+  left: -210%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.7s ease 0s;
+  width: 200%;
+  animation: moves2 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
 
+
+@keyframes moves2 {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  48% {
+    opacity: 1.5;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 120%
+  }
+}
 .folder__item__icon {
   width: 4.38rem;
   height: 4.38rem;
@@ -9056,11 +9138,51 @@ a.footer_title {
   gap: 3rem;
   justify-content: space-between;
   min-height: 17.25rem;
+  position: relative;
+  overflow: hidden;
 }
 .layout-card3:hover{
   background-color: var(--main-color);
 }
 
+.layout-card3::after{
+  background: linear-gradient(90deg, rgb(241 241 241 / 60%) 0px, rgb(255 255 255 / 0%) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+  content: "";
+  height: 200%;
+  left: -210%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.7s ease 0s;
+  width: 200%;
+  animation: moves3 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+
+@keyframes moves3 {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  48% {
+    opacity: 1.5;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 120%
+  }
+}
 
 .layout-card4 .folder__item__icon {
   width: 4.38rem;
@@ -9095,50 +9217,15 @@ a.footer_title {
 }
 
 
-.layout-card::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 0;
-  height: 4px;
-  background: #fff;
-  transition: width .5s;
-}
-
 .layout-card:hover::after {
   width: 100%;
   /* //transition: width .3s; */
 }
 
-.layout-card2::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 0;
-  height: 4px;
-  background: #fff;
-  transition: width .5s;
-}
 
 .layout-card2:hover::after {
   width: 100%;
   /* //transition: width .3s; */
-}
-
-.layout-card3::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 0;
-  height: 4px;
-  background: #fff;
-  transition: width .5s;
 }
 
 .layout-card3:hover::after {
@@ -9237,7 +9324,7 @@ a.footer_title {
 }
 
 .card__item__green__row .card__items_2 p{
-  font-size: 22px;
+  font-size: 24px;
   line-height: 30px;
 }
 
